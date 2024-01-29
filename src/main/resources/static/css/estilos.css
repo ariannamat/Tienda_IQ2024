@@ -1,0 +1,52 @@
+/* 
+    Comentarios de esta manera
+*/
+
+/* 
+    selector de id = #
+*/
+
+#tituloPrincipal{
+    color: dodgerblue;
+    font-family: sans-serif;
+}
+
+/* 
+    selector de clases = .
+*/
+
+.parrafoSecundario{
+    color: grey;
+    font-size: 20px;
+}
+
+/* 
+    si se usan tanto id como class en un elemento, se aplicara 
+    el mas especifico en aquellos que haya conflicto.
+
+    si el conflicto se da en el mismo tipo de selector, se aplicara en el 
+    orden de las clases en el archivo. La utlima es la que se va a aplicar.
+*/
+
+/* 
+    selector universal = *
+*/
+
+/* 
+    se puede hacer agrupaciones de elementos
+    ej:
+        h1, h2, h3{
+            color: white
+        }
+
+        p {
+            background-color: antiquewhite;
+        }
+        
+    se le aplica a todos los headers 1,2 y 3 y el otro a todos los parrafos
+*/
+
+/* 
+    selector descendente usando span (va a afectar solo los span 
+    dentro de x elemento)
+*/
