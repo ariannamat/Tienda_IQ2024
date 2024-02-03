@@ -1,0 +1,11 @@
+.contenedor {
+    top: 12%;
+    left: 0;
+    height: 78%;
+    background-color: bisque;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+}
+

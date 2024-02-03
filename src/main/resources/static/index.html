@@ -5,24 +5,40 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- stylesheet -->
-        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
+        <link href="css/contenedor.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div>
-            <h1 id="tituloPrincipal" style="text-align: center;">Home</h1>
-            <p>Bienvenidos a la página de la tienda en linea</p>
-        </div>
-        <!-- comentario (para mas rapido: ctrl+shift+c)-->
-        <!-- br / es para espacios-->
-        <!-- marco lo que quiero editar y ctrl+j para editar varias repeticiones de algo, para salirse de ese modo ESCAPE -->
-        <p class="parrafoSecundario" style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipiscing elit nascetur suspendisse, facilisi lobortis penatibus tristique molestie posuere sociosqu quisque purus, inceptos himenaeos scelerisque tempor mus donec fermentum at. Convallis curabitur sagittis lacus dictum hac netus sociosqu ante semper, leo sed nibh vehicula risus vitae ridiculus varius, malesuada feugiat lobortis facilisis nisl suspendisse condimentum facilisi. Proin posuere sem venenatis cras duis mus torquent metus taciti cum, id fringilla vivamus bibendum per cursus felis pellentesque turpis, elementum curae quis integer commodo etiam placerat fermentum accumsan. Rutrum ridiculus maecenas dictum dui nullam turpis rhoncus auctor, magna blandit et suspendisse mi facilisi eros posuere ac, vitae in integer torquent sodales libero per.</p>
-        <p class="parrafoSecundario" style="text-align: right;">Magna dignissim nulla volutpat facilisi turpis euismod pulvinar lobortis parturient malesuada suspendisse, varius sapien luctus a conubia dui cum scelerisque facilisis. Fusce a nisl volutpat semper primis duis ullamcorper viverra, senectus bibendum facilisi suscipit varius accumsan nisi, quisque mi eu massa torquent condimentum montes nascetur, ligula lacinia mauris pulvinar tempor ut. Lacus natoque sociosqu inceptos eu ornare quam phasellus nec suspendisse rutrum, facilisi potenti malesuada pharetra duis rhoncus dictumst euismod.</p>
-        <p style="text-align: center;">Nascetur nam suspendisse mollis <span class="parrafoSecundario">ligula bibendum rhoncus montes convallis</span> fringilla sollicitudin, lacus pulvinar fames accumsan dis imperdiet dignissim ultricies quis inceptos viverra, arcu lobortis mauris luctus vestibulum est potenti habitasse facilisis. Montes ullamcorper phasellus dignissim dui posuere ridiculus diam porta pharetra ligula inceptos auctor, tempus erat nullam nibh viverra habitasse parturient vivamus cubilia a. Orci varius porta tempor duis aliquam eget at dapibus curabitur, porttitor eros litora eu vestibulum pulvinar taciti gravida, libero congue mauris commodo accumsan vitae ullamcorper bibendum.</p>
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">TechShop</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="formularios.html">&LeftTriangleBar;</a></li>
+                    <li class="nav-menu-item"> <a class="nav-menu-link nav-link" href="ejemplo2.html">&RightTriangleBar;</a> </li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="audios.html">Audios</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="videos.html">Videos</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="iframes.html">Iframes</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="formularios.html">Formularios</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="contenedor">
+            <div>
+                <h1 id="tituloPrincipal" style="text-align: center;">Home</h1>
+                <p>Bienvenidos a la página de la tienda en linea</p>
+            </div>
+            <!-- comentario (para mas rapido: ctrl+shift+c)-->
+            <!-- br / es para espacios-->
+            <!-- marco lo que quiero editar y ctrl+j para editar varias repeticiones de algo, para salirse de ese modo ESCAPE -->
+            <p class="parrafoSecundario" style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipiscing elit nascetur suspendisse, facilisi lobortis penatibus tristique molestie posuere sociosqu quisque purus, inceptos himenaeos scelerisque tempor mus donec fermentum at. Convallis curabitur sagittis lacus dictum hac netus sociosqu ante semper, leo sed nibh vehicula risus vitae ridiculus varius, malesuada feugiat lobortis facilisis nisl suspendisse condimentum facilisi. Proin posuere sem venenatis cras duis mus torquent metus taciti cum, id fringilla vivamus bibendum per cursus felis pellentesque turpis, elementum curae quis integer commodo etiam placerat fermentum accumsan. Rutrum ridiculus maecenas dictum dui nullam turpis rhoncus auctor, magna blandit et suspendisse mi facilisi eros posuere ac, vitae in integer torquent sodales libero per.</p>
+            <p class="parrafoSecundario" style="text-align: right;">Magna dignissim nulla volutpat facilisi turpis euismod pulvinar lobortis parturient malesuada suspendisse, varius sapien luctus a conubia dui cum scelerisque facilisis. Fusce a nisl volutpat semper primis duis ullamcorper viverra, senectus bibendum facilisi suscipit varius accumsan nisi, quisque mi eu massa torquent condimentum montes nascetur, ligula lacinia mauris pulvinar tempor ut. Lacus natoque sociosqu inceptos eu ornare quam phasellus nec suspendisse rutrum, facilisi potenti malesuada pharetra duis rhoncus dictumst euismod.</p>
+            <p style="text-align: center;">Nascetur nam suspendisse mollis <span class="parrafoSecundario">ligula bibendum rhoncus montes convallis</span> fringilla sollicitudin, lacus pulvinar fames accumsan dis imperdiet dignissim ultricies quis inceptos viverra, arcu lobortis mauris luctus vestibulum est potenti habitasse facilisis. Montes ullamcorper phasellus dignissim dui posuere ridiculus diam porta pharetra ligula inceptos auctor, tempus erat nullam nibh viverra habitasse parturient vivamus cubilia a. Orci varius porta tempor duis aliquam eget at dapibus curabitur, porttitor eros litora eu vestibulum pulvinar taciti gravida, libero congue mauris commodo accumsan vitae ullamcorper bibendum.</p>
 
-        <br />
-        <br />
-        <br />
-        
-        <p>Última linea</p>
+            <br />
+            <br />
+            <br />
+
+            <p>Última linea</p>
+        </section>
     </body>
 </html>

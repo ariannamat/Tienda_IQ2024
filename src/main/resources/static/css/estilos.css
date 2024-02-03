@@ -50,3 +50,44 @@
     selector descendente usando span (va a afectar solo los span 
     dentro de x elemento)
 */
+
+/* 
+    semana 3
+*/
+
+a:link{
+    color: chocolate;
+}
+
+a:visited{
+    color: darkgreen;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+a:active{
+    background-color: red;
+    color: black;
+}
+
+/* 
+    nuevos selectores
+
+    nth-child(x numero de parrafo que se quiere editar o se 
+    puede usar even y odd)
+
+    tambien se pude aplicar a clases especificas
+*/
+
+/*p:nth-child(even){
+    background-color: red;
+}*/
+
+p:nth-child(odd){
+    background-color: green;
+}
+
