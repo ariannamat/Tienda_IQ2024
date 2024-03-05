@@ -31,5 +31,5 @@ public class Categoria implements Serializable{
         this.activo = activo;
     }
     
-    
+    //anotaciones siempre deben ir pegadas a su metodo, clase, etc, o sea no dejae una linea vacia despues de ellas!!!!!!!!!!
 }
