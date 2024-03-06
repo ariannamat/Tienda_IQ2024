@@ -15,29 +15,27 @@ public class Producto implements Serializable{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_producto")
     private Long idProducto;
-    
-    @ManyToOne
-    @JoinColumn(name = "id_categoria", referencedColumnName = "id_categoria")
-    private Categoria categoria;
-    
     private String descripcion;
     private String detalle;
     private double precio;
     private int existencias;
     private String rutaImagen;
     private boolean activo;
+    private Long idCategoria;
 
     public Producto() {
     }
 
-    public Producto(Categoria categoria, String descripcion, String detalle, double precio, int existencias, String rutaImagen, boolean activo) {
-        this.categoria = categoria;
+    public Producto(String descripcion, String detalle, double precio, int existencias, String rutaImagen, boolean activo, Long idCategoria) {
         this.descripcion = descripcion;
         this.detalle = detalle;
         this.precio = precio;
         this.existencias = existencias;
         this.rutaImagen = rutaImagen;
         this.activo = activo;
+        this.idCategoria = idCategoria;
     }
+
+    
     
 }
