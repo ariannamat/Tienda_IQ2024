@@ -2,6 +2,7 @@ package com.tienda.domain;
 
 import jakarta.persistence.*;
 import java.io.Serializable; //permite que obtener datos de bases de datos 
+import java.util.List;
 //podamos compertir este objecto en uno que se coniverta en algo que pueda recibir msq
 import lombok.Data;
 
@@ -19,6 +20,12 @@ public class Categoria implements Serializable{
     private String descripcion;
     private String rutaImagen;
     private boolean activo;
+    
+    
+    @OneToMany
+    @JoinColumn(name = "id_categoria", insertable = false, updatable = false)
+    List<Producto> productos;
+    
     
     //Constrcutor base
     public Categoria() {
