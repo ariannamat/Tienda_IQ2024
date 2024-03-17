@@ -23,7 +23,7 @@ public class CategoriaController {
     @GetMapping("/listado") //se accede solo por get
     public String listado(Model model) {
         List<Categoria> lista = categoriaService.getCategorias(false);
-        //ejemplo: List<Categoria> 
+        //ejemplo: List<Categoria> lista = categoriaService.buscarPorDescripcion("tarjeta Madre");
         model.addAttribute("categorias", lista);
         model.addAttribute("totalCategorias", lista.size());
         return "/categoria/listado";
