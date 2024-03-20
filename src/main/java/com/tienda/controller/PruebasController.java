@@ -45,6 +45,7 @@ public class PruebasController {
     public String listado2(Model model) {
         var productos = productoService.getProductos(false);
         model.addAttribute("productos", productos);
+        model.addAttribute("totalProductos", productos.size());
         return "/pruebas/listado2";
     }
 
